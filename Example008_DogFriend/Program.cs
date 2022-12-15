@@ -1,14 +1,14 @@
 ﻿Console.Write("Введите расстояние в метрах ");
-double Dist = double.Parse(Console.ReadLine());
+double Dist = double.Parse(Console.ReadLine() ?? "");
 
 Console.Write("Введите скорость собаки м/с ");
-double DogSpeed = double.Parse(Console.ReadLine());
+double DogSpeed = double.Parse(Console.ReadLine() ?? "");
 
 Console.Write("Введите скорость Первого друга м/с ");
-double Friend1Speed = double.Parse(Console.ReadLine());
+double Friend1Speed = double.Parse(Console.ReadLine() ?? "");
 
 Console.Write("Введите скорость Вторгого друга м/с ");
-double Friend2Speed = double.Parse(Console.ReadLine());
+double Friend2Speed = double.Parse(Console.ReadLine() ?? "");
 
 double Time = 0;
 int RunFriend = 1, count = 0;
